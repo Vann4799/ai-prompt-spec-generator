@@ -1,6 +1,6 @@
-# 🤖 AI Prompt Spec Generator
+# 🚀 AI PRD Generator
 
-Generate comprehensive **AI Prompt Specifications** through warm, conversational AI interviews.
+Generate comprehensive **Product Requirements Documents** through warm, conversational AI interviews.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)]()
@@ -19,22 +19,22 @@ Generate comprehensive **AI Prompt Specifications** through warm, conversational
 
 ### Claude Code
 ```bash
-git clone https://github.com/Vann4799/ai-prompt-spec-generator.git ~/.claude/ai-prompt-spec-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.claude/ai-prd-generator
 ```
 
 ### Codex
 ```bash
-git clone https://github.com/Vann4799/ai-prompt-spec-generator.git ~/.codex/ai-prompt-spec-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.codex/ai-prd-generator
 ```
 
 ### OpenCode
 ```bash
-git clone https://github.com/Vann4799/ai-prompt-spec-generator.git ~/.opencode/skills/ai-prompt-spec-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.opencode/skills/ai-prd-generator
 ```
 
 ### Hermes Agent
 ```bash
-hermes skills install Vann4799/ai-prompt-spec-generator
+hermes skills install Vann4799/ai-prd-generator
 ```
 
 ## 🎯 Usage
@@ -42,8 +42,19 @@ hermes skills install Vann4799/ai-prompt-spec-generator
 Simply say:
 
 ```
-"Buat Prompt Spec untuk aplikasi kasir toko"
+"Buat PRD untuk aplikasi kasir toko"
 ```
+
+or:
+
+```
+"Generate a PRD for my expense tracking app"
+```
+
+The AI will:
+1. Ask questions one by one (warm, conversational)
+2. Generate a comprehensive PRD
+3. Provide a non-technical summary
 
 ## 📋 Interview Questions
 
@@ -51,21 +62,27 @@ Simply say:
 |---|--------------|---------------|
 | 1 | Apa nama aplikasinya? | What's the project name? |
 | 2 | Jenis aplikasinya apa? | What type of project? |
-| 3 | Tools AI apa yang mau dipake? | What AI tools? |
-| 4 | Prompt kayak apa yang dibutuhin? | What prompt type? |
-| 5 | Info apa yang perlu dikasih ke AI? | What context needed? |
-| 6 | Tugas apa yang mau dibantu AI? | What tasks to automate? |
-| 7 | Mau Bahasa Indonesia atau English? | Language preference? |
+| 3 | Ceritain dong, aplikasi ini ngapain? | Describe what it does |
+| 4 | Siapa yang bakal pakai? | Who are the target users? |
+| 5 | Masalah apa yang mau diselesaikan? | What problem does it solve? |
+| 6 | Fitur utama apa aja? | What are the core features? |
+| 7 | Ada teknologi khusus? | Any preferred tech stack? |
+| 8 | Target selesai kapan? | What's the timeline? |
+| 9 | Gimana tau berhasil? | How will you measure success? |
+| 10 | Mau Bahasa Indonesia atau English? | Language preference? |
 
+## 📄 PRD Output
 
-## 📄 Output Structure
-
-1. AI Tool Requirements
-2. Master Prompt
-3. Task-Specific Prompts
-4. Tool-Specific Formats (Cursor, Claude, OpenCode)
-5. Implementation Workflow
-6. Non-Technical Summary
+1. Project Overview
+2. Problem Statement
+3. Target Users (with personas)
+4. Features (Must-have, Should-have, Nice-to-have)
+5. User Stories & Acceptance Criteria
+6. Technical Requirements
+7. Success Metrics
+8. Timeline & Milestones
+9. Risks & Mitigation
+10. **Non-Technical Summary** ← Bonus!
 
 ## 🤝 Contributing
 
